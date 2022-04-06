@@ -41,7 +41,8 @@ window.addEventListener('DOMContentLoaded',function (){
     
 
     let cart = document.querySelector('.cart'),
-    closeBtn = document.querySelector('.close')
+    closeBtn = document.querySelector('.close'),
+        field = document.querySelector('.cart-field')
 
 
     openBtn.addEventListener('click',function (){
